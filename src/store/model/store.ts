@@ -30,7 +30,8 @@ export type Brand =
 	| 'sony'
 	| 'xfx'
 	| 'powercolor'
-	| 'zotac';
+	| 'zotac'
+	| 'jon-custom';
 
 export type Series =
 	| 'test:series'
@@ -128,7 +129,8 @@ export type Model =
 	| 'xc3 ultra'
 	| 'xc3'
 	| 'xlr8 revel'
-	| 'xlr8 uprising';
+	| 'xlr8 uprising'
+	| 'noctua';
 
 export type Link = {
 	brand: Brand;
