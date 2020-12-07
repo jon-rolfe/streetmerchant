@@ -63,7 +63,20 @@ export const Walmart: Store = {
 			series: 'ryzen5900',
 			url:
 				'https://www.walmart.com/ip/AMD-Ryzen-9-5900X-12-core-24-thread-Desktop-Processor/159710953'
+		},
+		{
+			brand: 'jon-custom',
+			model: '750 platinum',
+			series: 'sf',
+			url: 'https://www.walmart.com/ip/SF750-Power-Supply/197046151'
+		},
+		{
+			brand: 'jon-custom',
+			model: 'noctua',
+			series: 'sf',
+			url: 'https://www.walmart.com/ip/Noctua-NF-A12x25-PWM-4-Pin-Premium-Quiet-Fan-120mm-Brown/365714587'
 		}
+
 	],
 	name: 'walmart'
 };

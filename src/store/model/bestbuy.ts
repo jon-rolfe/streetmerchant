@@ -493,6 +493,14 @@ export const BestBuy: Store = {
 			series: '3060ti',
 			url:
 				'https://www.bestbuy.com/site/msi-geforce-rtx-3060-ti-ventus-2x-oc-bv-8gb-gddr6-pci-express-4-0-graphics-card-black-black/6441172.p?skuId=6441172&intl=nosplash'
+		},
+		{
+			brand: 'jon-custom',
+			cartUrl: 'https://api.bestbuy.com/click/-/6351845/cart',
+			model: '750 platinum',
+			series: 'sf',
+			url:
+				'https://www.bestbuy.com/site/corsair-sf-series-750w-atx12v-2-4-eps12v-2-92-sfx12v-80-plus-platinum-modular-power-supply-black/6351845.p?skuId=6351845'
 		}
 	],
 	name: 'bestbuy'
