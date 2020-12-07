@@ -36,7 +36,7 @@ export const Corsair: Store = {
 		{
 			brand: 'jon-custom',
 			model: '750 platinum',
-			series: 'sf',
+			series: 'jon_corsair',
 			url:
 				'https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020186-NA'
 		}

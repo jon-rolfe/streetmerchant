@@ -498,7 +498,7 @@ export const BestBuy: Store = {
 			brand: 'jon-custom',
 			cartUrl: 'https://api.bestbuy.com/click/-/6351845/cart',
 			model: '750 platinum',
-			series: 'sf',
+			series: 'jon_corsair',
 			url:
 				'https://www.bestbuy.com/site/corsair-sf-series-750w-atx12v-2-4-eps12v-2-92-sfx12v-80-plus-platinum-modular-power-supply-black/6351845.p?skuId=6351845'
 		}
