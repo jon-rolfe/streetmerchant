@@ -126,10 +126,10 @@ async function lookup(browser: Browser, store: Store) {
 	}
 
 	if (store.linksBuilder) {
-		logger.info(`[${store.name}] Running linksBuilder...`);
 		const lastRunTime = linkBuilderLastRunTimes[store.name] ?? -1;
 		const ttl = store.linksBuilder.ttl ?? Number.MAX_SAFE_INTEGER;
 		if (lastRunTime === -1 || Date.now() - lastRunTime > ttl) {
+			logger.info(`[${store.name}] Running linksBuilder...`);
 			try {
 				await fetchLinks(store, browser);
 				linkBuilderLastRunTimes[store.name] = Date.now();
@@ -347,6 +347,15 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 	// 	return store.realTimeInventoryLookup(link.itemNumber);
 	// }
 
+	if (store.labels.outOfStock) {
+		if (
+			await pageIncludesLabels(page, store.labels.outOfStock, baseOptions)
+		) {
+			logger.info(Print.outOfStock(link, store, true));
+			return false;
+		}
+	}
+
 	if (store.labels.inStock) {
 		const options = {
 			...baseOptions,
@@ -368,15 +377,6 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 		};
 
 		if (!(await pageIncludesLabels(page, link.labels.inStock, options))) {
-			logger.info(Print.outOfStock(link, store, true));
-			return false;
-		}
-	}
-
-	if (store.labels.outOfStock) {
-		if (
-			await pageIncludesLabels(page, store.labels.outOfStock, baseOptions)
-		) {
 			logger.info(Print.outOfStock(link, store, true));
 			return false;
 		}
