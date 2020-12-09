@@ -9,8 +9,7 @@ export const BestBuy: Store = {
 		},
 		maxPrice: {
 			container:
-				'[data-sticky-media-gallery] .priceView-price .priceView-hero-price span',
-			euroFormat: false
+				'[data-sticky-media-gallery] .priceView-price .priceView-hero-price span'
 		}
 	},
 	links: [
@@ -447,6 +446,13 @@ export const BestBuy: Store = {
 				'https://www.bestbuy.com/site/xfx-merc-319-amd-radeon-rx-6800xt-16gb-gddr6-pci-express-4-0-gaming-graphics-card-black/6442585.p?skuId=6442585'
 		},
 		{
+			brand: 'xfx',
+			model: 'amd reference',
+			series: 'rx6900xt',
+			url:
+				'https://www.bestbuy.com/site/xfx-amd-radeon-rx-6900-xt-16gb-gddr6-pci-express-4-0-gaming-graphics-card-black/6444358.p?skuId=6444358'
+		},
+		{
 			brand: 'corsair',
 			cartUrl: 'https://api.bestbuy.com/click/-/6351845/cart',
 			model: '750 platinum',
@@ -493,6 +499,14 @@ export const BestBuy: Store = {
 			series: '3060ti',
 			url:
 				'https://www.bestbuy.com/site/msi-geforce-rtx-3060-ti-ventus-2x-oc-bv-8gb-gddr6-pci-express-4-0-graphics-card-black-black/6441172.p?skuId=6441172&intl=nosplash'
+		},
+		{
+			brand: 'jon-custom',
+			cartUrl: 'https://api.bestbuy.com/click/-/6351845/cart',
+			model: '750 platinum',
+			series: 'jon_corsair',
+			url:
+				'https://www.bestbuy.com/site/corsair-sf-series-750w-atx12v-2-4-eps12v-2-92-sfx12v-80-plus-platinum-modular-power-supply-black/6351845.p?skuId=6351845'
 		}
 	],
 	name: 'bestbuy'

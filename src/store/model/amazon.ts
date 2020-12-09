@@ -250,7 +250,7 @@ export const Amazon: Store = {
 			brand: 'evga',
 			cartUrl:
 				'https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B08L8L9TCZ&Quantity.1=1',
-			model: 'ftw3',
+			model: 'ftw3 ultra',
 			series: '3070',
 			url: 'https://www.amazon.com/dp/B08L8L9TCZ'
 		},
@@ -705,6 +705,22 @@ export const Amazon: Store = {
 			model: '600 platinum',
 			series: 'sf',
 			url: 'https://www.amazon.com/dp/B07F84FJ1G'
+		},
+		{
+			brand: 'jon-custom',
+			cartUrl:
+				'https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B07M63H81H&Quantity.1=1',
+			model: '750 platinum',
+			series: 'jon_corsair',
+			url: 'https://www.amazon.com/dp/B07M63H81H'
+		},
+		{
+			brand: 'jon-custom',
+			cartUrl:
+				'https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B07C5VG64V&Quantity.1=1',
+			model: 'noctua',
+			series: 'jon_noctua',
+			url: 'https://www.amazon.com/dp/B07C5VG64V'
 		}
 	],
 	name: 'amazon'

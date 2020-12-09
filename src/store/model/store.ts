@@ -30,7 +30,8 @@ export type Brand =
 	| 'sony'
 	| 'xfx'
 	| 'powercolor'
-	| 'zotac';
+	| 'zotac'
+	| 'jon-custom';
 
 export type Series =
 	| 'test:series'
@@ -49,7 +50,9 @@ export type Series =
 	| 'sonyps5de'
 	| 'sf'
 	| 'xboxsx'
-	| 'xboxss';
+	| 'xboxss'
+	| 'jon_corsair'
+	| 'jon_noctua';
 
 export type Model =
 	| 'test:model'
@@ -64,6 +67,7 @@ export type Model =
 	| 'amp holo'
 	| 'aorus master'
 	| 'aorus xtreme'
+	| 'aorus xtreme waterforce'
 	| 'aorus'
 	| 'challenger'
 	| 'dual fan'
@@ -72,8 +76,9 @@ export type Model =
 	| 'eagle oc'
 	| 'eagle'
 	| 'founders edition'
-	| 'ftw3 ultra'
 	| 'ftw3'
+	| 'ftw3 ultra'
+	| 'ftw3 ultra hydro copper'
 	| 'gamerock oc'
 	| 'gaming oc'
 	| 'gaming oc pro'
@@ -81,10 +86,12 @@ export type Model =
 	| 'gaming pro'
 	| 'gaming x trio'
 	| 'gaming x3'
+	| 'suprim x'
 	| 'gaming'
 	| 'ichill x2'
 	| 'ichill x3'
 	| 'ichill x4'
+	| 'ichill frostbite'
 	| 'ko'
 	| 'nitro+'
 	| 'nitro oc se'
@@ -98,6 +105,7 @@ export type Model =
 	| 'ps5 digital'
 	| 'pulse'
 	| 'red devil'
+	| 'red dragon'
 	| 'sg oc'
 	| 'sg'
 	| 'merc'
@@ -128,7 +136,8 @@ export type Model =
 	| 'xc3 ultra'
 	| 'xc3'
 	| 'xlr8 revel'
-	| 'xlr8 uprising';
+	| 'xlr8 uprising'
+	| 'noctua';
 
 export type Link = {
 	brand: Brand;
