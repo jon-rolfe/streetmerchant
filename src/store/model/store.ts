@@ -137,7 +137,8 @@ export type Model =
 	| 'xc3'
 	| 'xlr8 revel'
 	| 'xlr8 uprising'
-	| 'noctua';
+	| 'noctua'
+	| 'corsair';
 
 export type Link = {
 	brand: Brand;

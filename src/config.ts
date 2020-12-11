@@ -378,7 +378,9 @@ const store = {
 		'sonyps5c',
 		'sonyps5de',
 		'xboxss',
-		'xboxsx'
+		'xboxsx',
+		'jon_corsair',
+		'jon_noctua'
 	]),
 	stores: envOrArray(process.env.STORES, ['nvidia']).map((entry) => {
 		const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
