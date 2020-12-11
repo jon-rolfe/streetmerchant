@@ -198,8 +198,8 @@ const notifications = {
 			'test:series': envOrArray(process.env.DISCORD_NOTIFY_GROUP_TEST),
 			xboxss: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSS),
 			xboxsx: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSX),
-			jon_corsair: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSS),
-			jon_noctua: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSX),
+			jon_corsair: envOrArray(process.env.DISCORD_NOTIFY_GROUP_JON_CUSTOM_CORSAIR),
+			jon_noctua: envOrArray(process.env.DISCORD_NOTIFY_GROUP_JON_CUSTOM_NOCTUA),
 		},
 		webhooks: envOrArray(process.env.DISCORD_WEB_HOOK)
 	},
