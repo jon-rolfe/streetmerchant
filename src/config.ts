@@ -197,7 +197,9 @@ const notifications = {
 			sonyps5de: envOrArray(process.env.DISCORD_NOTIFY_GROUP_SONYPS5DE),
 			'test:series': envOrArray(process.env.DISCORD_NOTIFY_GROUP_TEST),
 			xboxss: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSS),
-			xboxsx: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSX)
+			xboxsx: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSX),
+			jon_corsair: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSS),
+			jon_noctua: envOrArray(process.env.DISCORD_NOTIFY_GROUP_XBOXSX),
 		},
 		webhooks: envOrArray(process.env.DISCORD_WEB_HOOK)
 	},
