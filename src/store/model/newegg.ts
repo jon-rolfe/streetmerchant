@@ -1011,6 +1011,15 @@ export const Newegg: Store = {
 			series: 'rx6800',
 			url:
 				'https://www.newegg.com/powercolor-radeon-rx-6800-axrx-6800-16gbd6-3dhr-oc/p/N82E16814131773'
+		},
+		{
+			brand: 'jon-custom',
+			cartUrl:
+				'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=9SIARV1D3F7112',
+			model: 'noctua',
+			series: 'jon_noctua',
+			url:
+				'https://www.newegg.com/noctua-nf-a12x15-pwm-case-fan/p/9SIARV1D3F7112'
 		}
 	],
 	name: 'newegg',

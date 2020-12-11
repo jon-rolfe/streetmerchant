@@ -717,10 +717,10 @@ export const Amazon: Store = {
 		{
 			brand: 'jon-custom',
 			cartUrl:
-				'https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B07C5VG64V&Quantity.1=1',
+				'https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B071W6HJP6&Quantity.1=1',
 			model: 'noctua',
 			series: 'jon_noctua',
-			url: 'https://www.amazon.com/dp/B07C5VG64V'
+			url: 'https://www.amazon.com/dp/B071W6HJP6'
 		}
 	],
 	name: 'amazon'

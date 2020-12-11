@@ -69,14 +69,7 @@ export const Walmart: Store = {
 			model: '750 platinum',
 			series: 'jon_corsair',
 			url: 'https://www.walmart.com/ip/SF750-Power-Supply/197046151'
-		},
-		{
-			brand: 'jon-custom',
-			model: 'noctua',
-			series: 'jon_noctua',
-			url: 'https://www.walmart.com/ip/Noctua-NF-A12x25-PWM-4-Pin-Premium-Quiet-Fan-120mm-Brown/365714587'
 		}
-
 	],
 	name: 'walmart'
 };
