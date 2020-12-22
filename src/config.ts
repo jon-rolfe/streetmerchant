@@ -359,10 +359,10 @@ const store = {
 			sonyps5c: envOrNumber(process.env.MAX_PRICE_SERIES_SONYPS5C),
 			sonyps5de: envOrNumber(process.env.MAX_PRICE_SERIES_SONYPS5DE),
 			'test:series': envOrNumber(process.env.MAX_PRICE_SERIES_TEST),
-			xboxss: -1,
-			xboxsx: -1,
 			jon_corsair: envOrNumber(process.env.MAX_PRICE_SERIES_JON_CUSTOM_CORSAIR),
 			jon_noctua: envOrNumber(process.env.MAX_PRICE_SERIES_JON_CUSTOM_NOCTUA)
+			xboxss: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSS),
+			xboxsx: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSX)
 		}
 	},
 	microCenterLocation: envOrArray(process.env.MICROCENTER_LOCATION, ['web']),
@@ -393,7 +393,7 @@ const store = {
 		'jon_corsair',
 		'jon_noctua'
 	]),
-	stores: envOrArray(process.env.STORES, ['nvidia']).map((entry) => {
+	stores: envOrArray(process.env.STORES, ['amazon,bestbuy']).map((entry) => {
 		const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
 
 		let proxyList;
